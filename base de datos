@@ -1,0 +1,11 @@
+
+
+create database cursojsp
+
+CREATE TABLE `usuarios` (
+  `codUsu` char(4) NOT NULL,
+  `nomUsu` varchar(30) NOT NULL,
+  `edadUsu` int(11) NOT NULL,
+  `sexoUsu` char(1) NOT NULL,
+  `passUsu` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
